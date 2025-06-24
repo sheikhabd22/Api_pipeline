@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background:grey;
+  color: #333;
+  font-family: 'Fira Code', monospace;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.controls {
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  box-shadow: 8px 8px 0px black; 
+  margin-right: 10px;
+  font-family: 'Fira Code', monospace;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius:none;
+    box-shadow: 8px 8px 0px black; 
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Fira Code', monospace;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+#image-container img {
+  transition: transform 0.2s ease;
+  box-shadow: 8px 8px 0px black; 
+}
+
+#image-container img:hover {
+  transform: scale(1.05);
+}
+
+#image-container p {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  
+}
